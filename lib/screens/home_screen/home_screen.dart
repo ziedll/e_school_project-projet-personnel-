@@ -133,13 +133,24 @@ class _HomeScreenState extends State<HomeScreen> {
                       HomeCard(
                           onPress: () {},
                           icon: 'assets/icons/155491.svg',
-                          title: 'quitter\n l\'application'),
+                          title: 'calendrier scolaire'),
                       HomeCard(
                           onPress: () {},
                           icon: 'assets/icons/logout.svg',
-                          title: 'se déconnecter'),
+                          title: 'menu du jour'),
                     ],
                   ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  HomeCard(
+                      onPress: () {},
+                      icon: 'assets/icons/155491.svg',
+                      title: 'quitter\n l\'application'),
+                  HomeCard(
+                      onPress: () {},
+                      icon: 'assets/icons/logout.svg',
+                      title: 'se déconnecter'),
                 ],
               ),
             ),
