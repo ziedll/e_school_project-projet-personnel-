@@ -132,6 +132,19 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       HomeCard(
                           onPress: () {},
+                          icon: 'assets/icons/timetable.svg',
+                          title: 'Calendrier\n scolaire'),
+                      HomeCard(
+                          onPress: () {},
+                          icon: 'assets/icons/holiday.svg',
+                          title: 'Menu du jour'),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      HomeCard(
+                          onPress: () {},
                           icon: 'assets/icons/155491.svg',
                           title: 'quitter\n l\'application'),
                       HomeCard(
