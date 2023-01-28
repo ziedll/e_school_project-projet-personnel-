@@ -1,13 +1,16 @@
 # e_school_project
-Mon produit fera office d’une application, étant une plateforme dédiée à l’éducation pour les élèves de l’ECT. En effet, elle facilitera la communication  et l’étude à travers le numérique, étant une alternative de google classroom. Ce projet me permettra d’amplifier mes connaissances en informatique et en programmation, étant le centre d’intérêt m’ayant mené à cet objectif, mais aussi afin de créer une plateforme dédiée aux élèves de notre école afin de la rendre plus pratique que celle que nous utilisons communément étant google classroom, en ajoutant plus de fonctionnalités utiles que cette dernière. Mon application sera composée d’une page afin de se connecter, mais aussi de plusieurs onglets répartis en “notifications”, “classes”, “profs”, “aide”, “devoirs maisons” ,“cours”, etc…, et sera entièrement programmée à partir du système de codage “flutter”, étant un des plus pratiques et faciles afin d’avoir un résultat fiable et fonctionnel.  
- 
 
-https://user-images.githubusercontent.com/112785620/210115946-cfecd228-d999-4e43-a5e0-6c1bdc57454f.mp4
+A new Flutter project.
 
+## Getting Started
 
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-
-
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
