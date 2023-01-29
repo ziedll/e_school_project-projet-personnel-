@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 //colors
 const Color kPrimaryColor = Color(0xFF345FB4);
@@ -28,6 +29,11 @@ const kHalfWidthSizedBox = SizedBox(
   width: kDefaultPadding / 2,
 );
 
+final kTopBorderRadius = BorderRadius.only(
+  topLeft: Radius.circular(SizerUtil.deviceType == DeviceType.mobile ? 20 : 10),
+  topRight:
+  Radius.circular(SizerUtil.deviceType == DeviceType.mobile ? 20 : 10),
+);
 //validation for mobile
 const String mobilePattern = r'(^(?:[+0]9)?[0-9]{10,12}$)';
 

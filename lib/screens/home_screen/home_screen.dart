@@ -1,8 +1,10 @@
 import 'package:e_school_project/constants.dart';
+import 'package:e_school_project/screens/assignment_screen/assignment_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../datesheet_screen/datesheet_screen.dart';
 import 'widgets/student_data.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -81,7 +83,11 @@ class _HomeScreenState extends State<HomeScreen> {
                         title: 'chat',
                       ),
                       HomeCard(
-                          onPress: () {},
+                          onPress: () {
+                            //go to assignment screen
+                            Navigator.pushNamed(
+                                context, AssignmentScreen.routeName);
+                          },
                           icon: 'assets/icons/homework.svg',
                           title: 'devoirs'),
                     ],
@@ -97,8 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       HomeCard(
                           onPress: () {},
                           icon: 'assets/icons/schedule-svgrepo-com.svg',
-                          title: 'emploi '
-                              '\ndu temps'),
+                          title: 'calendrier'),
                     ],
                   ),
                   Row(
@@ -131,11 +136,16 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       HomeCard(
-                          onPress: () {},
+                          onPress: () {
+                            Navigator.pushNamed(
+                                context, DateSheetScreen.routeName);
+                          },
                           icon: 'assets/icons/timetable.svg',
-                          title: 'Calendrier\n scolaire'),
+                          title: 'emploi\n du temps'),
                       HomeCard(
-                          onPress: () {},
+                          onPress: () {
+                            Navigator.pushNamed(context, DateSheetScreen.routeName);
+                          },
                           icon: 'assets/icons/holiday.svg',
                           title: 'Menu du jour'),
                     ],
