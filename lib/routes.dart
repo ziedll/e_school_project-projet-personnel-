@@ -1,3 +1,5 @@
+
+import 'package:e_school_project/screens/chat_screen/chat_screen.dart';
 import 'package:e_school_project/screens/datesheet_screen/datesheet_screen.dart';
 import 'package:e_school_project/screens/home_screen/home_screen.dart';
 import 'package:e_school_project/screens/login_screen/login_screen.dart';
@@ -13,4 +15,6 @@ Map<String, WidgetBuilder> routes = {
   HomeScreen.routeName: (context) => HomeScreen(),
   AssignmentScreen.routeName: (context) => AssignmentScreen(),
   DateSheetScreen.routeName: (context) => DateSheetScreen(),
+  ChatScreen.routeName: (context) => ChatScreen(),
+  LoginScreen.routeName1: (context) => LoginScreen(),
 };

@@ -8,7 +8,7 @@ late bool _passwordVisible;
 
 class LoginScreen extends StatefulWidget {
   static String routeName = "LoginScreen";
-
+  static String routeName1 = "LoginScreen";
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }

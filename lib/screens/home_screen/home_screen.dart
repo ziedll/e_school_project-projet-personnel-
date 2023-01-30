@@ -1,10 +1,12 @@
 import 'package:e_school_project/constants.dart';
 import 'package:e_school_project/screens/assignment_screen/assignment_screen.dart';
+import 'package:e_school_project/screens/chat_screen/chat_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../datesheet_screen/datesheet_screen.dart';
+import '../login_screen/login_screen.dart';
 import 'widgets/student_data.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -78,7 +80,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       HomeCard(
-                        onPress: () {},
+                        onPress: () {
+                          Navigator.pushNamed(
+                              context, ChatScreen.routeName);
+                        },
                         icon: 'assets/icons/chat.svg',
                         title: 'chat',
                       ),
@@ -158,7 +163,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           icon: 'assets/icons/155491.svg',
                           title: 'quitter\n l\'application'),
                       HomeCard(
-                          onPress: () {},
+                          onPress: () {
+                            Navigator.pushNamed(
+                                context, LoginScreen.routeName1);
+                          },
                           icon: 'assets/icons/logout.svg',
                           title: 'se déconnecter'),
                     ],
