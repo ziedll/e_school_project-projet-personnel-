@@ -1,4 +1,5 @@
 import 'package:e_school_project/constants.dart';
+import 'package:e_school_project/screens/Menu_du_jour_screen/Daily_Menu.dart';
 import 'package:e_school_project/screens/assignment_screen/assignment_screen.dart';
 import 'package:e_school_project/screens/chat_screen/chat_screen.dart';
 import 'package:flutter/material.dart';
@@ -149,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           title: 'emploi\n du temps'),
                       HomeCard(
                           onPress: () {
-                            Navigator.pushNamed(context, DateSheetScreen.routeName);
+                            Navigator.pushNamed(context, DailyMenuScreen.routeName);
                           },
                           icon: 'assets/icons/holiday.svg',
                           title: 'Menu du jour'),

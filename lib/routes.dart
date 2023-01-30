@@ -1,4 +1,5 @@
 
+import 'package:e_school_project/screens/Menu_du_jour_screen/Daily_Menu.dart';
 import 'package:e_school_project/screens/chat_screen/chat_screen.dart';
 import 'package:e_school_project/screens/datesheet_screen/datesheet_screen.dart';
 import 'package:e_school_project/screens/home_screen/home_screen.dart';
@@ -17,4 +18,5 @@ Map<String, WidgetBuilder> routes = {
   DateSheetScreen.routeName: (context) => DateSheetScreen(),
   ChatScreen.routeName: (context) => ChatScreen(),
   LoginScreen.routeName1: (context) => LoginScreen(),
+  DailyMenuScreen.routeName: (context) =>  DailyMenuScreen(),
 };
